@@ -258,7 +258,8 @@ color: rgb(255, 255, 255);
 <div class="tabP">
         <button class="tablinksP" onmouseover="openCityP(event, 'Online Shopping')">Online Shopping System</button>
         <button class="tablinksP" onmouseover="openCityP(event, 'Chat App')">Chat Application</button>
-        <!-- <button class="tablinksP" onmouseover="openCityP(event, 'Project 3')">$%#@*&%</button> -->
+        <button class="tablinksP" onmouseover="openCityP(event, 'Declaration Parser')">Declaration Parser</button>
+        <button class="tablinksP" onmouseover="openCityP(event, 'Simulation of seasons')">Simulation of seasons</button>
 </div>
 <div id="Online Shopping" class="tabcontentP">
   <h4>Online Shopping System</h4>
@@ -327,7 +328,8 @@ color: rgb(255, 255, 255);
 </div>
 <div class="clearfix"> </div>
 <script>
-        function openCity(evt, cityName) {
+        function openCity(evt, cityName) 
+                     {
           var i, tabcontent, tablinks;
           tabcontent = document.getElementsByClassName("tabcontent");
           for (i = 0; i < tabcontent.length; i++) {
@@ -341,7 +343,8 @@ color: rgb(255, 255, 255);
           evt.currentTarget.className += " active";
         }
 
-function openCityP(evt, cityName) {
+function openCityP(evt, cityName)
+                                                  {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontentP");
   for (i = 0; i < tabcontent.length; i++) {
